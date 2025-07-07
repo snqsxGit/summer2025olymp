@@ -8,7 +8,13 @@ using namespace std;
 #endif
 
 void solve() {
-    
+    int w;
+    cin >> w;
+
+    if (w > 2 && w % 2 == 0)
+        cout << "YES\n";
+    else
+        cout << "NO\n";
 }
 
 int main() {
@@ -16,7 +22,7 @@ int main() {
     cin.tie(nullptr);
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
 
     while (t--)
         solve();
